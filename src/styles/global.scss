@@ -1,0 +1,9 @@
+@use "./variables.scss" as *;
+
+* {
+  color: $text-color-primary;
+}
+
+body {
+  background-color: $background-color;
+}
