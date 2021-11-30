@@ -4,9 +4,9 @@ import "./_TicketContainer.scss";
 export const TicketContainer = ({ tickets }) => {
   return (
     <main className="ticket-container">
-      <Ticket />
-      <Ticket />
-      <Ticket />
+      {tickets.map(({ name, role }, index) => (
+        <Ticket name={name} role={role} key={index} />
+      ))}
     </main>
   );
 };
