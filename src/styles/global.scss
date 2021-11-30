@@ -6,4 +6,10 @@
 
 body {
   background-color: $background-color;
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-size: $largest-font-size;
+  text-align: center;
 }

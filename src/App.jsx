@@ -1,11 +1,12 @@
-import Ticket from "./components/Ticket/Ticket";
+import TicketContainer from "./components/TicketContainer/TicketContainer";
 import "./styles/main.scss";
+import tickets from "./data/tickets";
 
 const App = () => {
   return (
     <>
       <h1>Ticket Tracker</h1>
-      <Ticket />
+      <TicketContainer tickets={tickets} />
     </>
   );
 };

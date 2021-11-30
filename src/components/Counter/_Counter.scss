@@ -1,0 +1,32 @@
+@use "../../styles/variables.scss" as *;
+
+.counter {
+  border: dashed 2px $text-color-secondary;
+  border-radius: 5px;
+  background-color: $background-color;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: $largest-font-size;
+  padding: 1rem 0;
+
+  &__score {
+    text-align: center;
+    grid-column: 1 / -1;
+  }
+
+  &__button {
+    font-size: $large-font-size;
+    background: $gradient-color;
+    box-shadow: 0px 10px 40px #6b3838;
+    border-radius: 5px;
+    border: none;
+    min-width: 50px;
+    max-width: 100px;
+    margin: auto;
+
+    &:hover {
+      background: $gradient-hover;
+      cursor: pointer;
+    }
+  }
+}

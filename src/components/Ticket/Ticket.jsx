@@ -1,11 +1,12 @@
 import "./_Ticket.scss";
+import Counter from "../Counter/Counter";
 
 const Ticket = () => {
   return (
     <div className="ticket">
-      <span className="ticket__name"></span>
-      <span className="ticket__role"></span>
-      {/* <Counter/> */}
+      <p className="ticket__name">Barry</p>
+      <p className="ticket__role">Absolute Legend</p>
+      <Counter />
     </div>
   );
 };

@@ -1,2 +1,18 @@
+@use "../../styles/variables.scss" as *;
+
 .ticket {
+  border: solid 2px white;
+  border-radius: 0.3rem;
+  min-width: 12.5rem;
+  padding: 1rem 2rem;
+  background-color: $foreground-color;
+
+  & .ticket__name {
+    font-size: $large-font-size;
+  }
+
+  & .ticket__role {
+    font-size: $regular-font-size;
+    font-style: italic;
+  }
 }
