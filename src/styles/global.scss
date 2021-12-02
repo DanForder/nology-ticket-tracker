@@ -1,11 +1,11 @@
 @use "./variables.scss" as *;
 
 * {
-  color: $text-color-primary;
+  color: var(--text-color-primary);
 }
 
-body {
-  background-color: $background-color;
+.app {
+  background-color: var(--background-color);
   padding: 1rem;
 }
 

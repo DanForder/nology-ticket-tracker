@@ -1,10 +1,10 @@
 @use "../../styles/variables.scss" as *;
 
 .ticket {
-  border: solid 2px white;
+  border: solid 2px var(--text-color-secondary);
   border-radius: 0.3rem;
   padding: 1rem;
-  background-color: $foreground-color;
+  background-color: var(--foreground-color);
 
   & .ticket__name {
     font-size: $large-font-size;
