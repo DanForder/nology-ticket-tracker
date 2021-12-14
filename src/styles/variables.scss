@@ -1,13 +1,23 @@
-//colors
-$background-color: #232229;
-$foreground-color: #2b2a33;
-$text-color-secondary: #6c6a7c;
-$text-color-primary: #ffffff;
-$highlight-color: #e58181;
+// themes
+.dark-mode {
+  --background-color: #232229;
+  --foreground-color: #2b2a33;
+  --text-color-secondary: #6c6a7c;
+  --text-color-primary: #ffffff;
+  --button-color: linear-gradient(180deg, #e1a0a0 0%, #e68181 100%);
+  --button-hover: linear-gradient(180deg, #e2c1c1 0%, #d36b6b 100%);
+  --opposite-color: #fef6e4;
+}
 
-// buttons
-$gradient-color: linear-gradient(180deg, #e1a0a0 0%, #e68181 100%);
-$gradient-hover: linear-gradient(180deg, #e2c1c1 0%, #d36b6b 100%);
+.light-mode {
+  --background-color: #f3d2c1;
+  --foreground-color: #fef6e4;
+  --text-color-secondary: #172c66;
+  --text-color-primary: #001858;
+  --button-color: linear-gradient(180deg, #e1a0a0 0%, #e68181 100%);
+  --button-hover: linear-gradient(180deg, #e2c1c1 0%, #d36b6b 100%);
+  --opposite-color: #2b2a33;
+}
 
 //font sizes
 $largest-font-size: 3rem;
