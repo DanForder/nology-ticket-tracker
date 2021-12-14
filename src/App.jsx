@@ -1,11 +1,11 @@
+import { useState } from "react";
 import TicketContainer from "./components/TicketContainer/TicketContainer";
 import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
-import "./styles/main.scss";
 import tickets from "./data/tickets";
-import { useState } from "react";
+import "./styles/main.scss";
 
 const App = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   const handleToggle = () => {
     setIsDark(!isDark);

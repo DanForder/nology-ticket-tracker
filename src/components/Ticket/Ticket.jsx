@@ -1,5 +1,5 @@
-import "./_Ticket.scss";
 import Counter from "../Counter/Counter";
+import "./Ticket.scss";
 
 const Ticket = ({ name, role }) => {
   return (

@@ -1,5 +1,5 @@
 import Ticket from "../Ticket/Ticket";
-import "./_TicketContainer.scss";
+import "./TicketContainer.scss";
 
 export const TicketContainer = ({ tickets }) => {
   return (
