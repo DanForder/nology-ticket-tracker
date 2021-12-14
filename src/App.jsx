@@ -14,7 +14,9 @@ const App = () => {
   return (
     <div className={"app " + (isDark ? "dark-mode" : "light-mode")}>
       <ToggleSwitch handleToggle={handleToggle} />
-      <h1>Ticket Tracker</h1>
+      <h1>Ticket Tracker
+        
+      </h1>
       <TicketContainer tickets={tickets} />
     </div>
   );
